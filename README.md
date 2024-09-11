@@ -1,6 +1,6 @@
 # Ransomware
 
-#Instructions for Handling Ransomware Encryption and Decryption
+# Instructions for Handling Ransomware Encryption and Decryption
 
 # Running the Ransomware Script:
 When you execute the ransomware.py file on your system, all .txt files will be encrypted.
