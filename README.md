@@ -1,7 +1,7 @@
 # Ransomware
 
 # Instructions for Handling Ransomware Encryption and Decryption
-
+before executing the script make sure to run the requirements.txt file using commmand --> pip install -r "_Path_to_requirements.txt"
 # Running the Ransomware Script:
 When you execute the ransomware.py file on your system, all .txt files will be encrypted.
 
